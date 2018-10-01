@@ -107,3 +107,34 @@ int main()
 
 //-> Age is: 18
 ```
+
+* Global variables
+
+Can be accessed from any part of the program.
+
+```
+#include <iostream>
+
+using namespace std;
+
+int global = 5;
+
+void display()
+{
+    cout << global << "\n" << endl;
+}
+
+int main() 
+{
+    display();
+
+    // Changing value of global
+    global = 10;
+    display();
+
+    return 0;
+}
+
+//-> 5
+//-> 10
+```
