@@ -71,3 +71,39 @@ Total arguments: 2
 arg[0] = ./main
 arg[1] = Israel
 ```
+
+## Variable
+
+### Declaring variables
+
+```
+VariableType VariableName;
+
+VariableType VariableName = InitialValue;
+```
+
+### Scope of a variable
+
+* Local Variable
+Variables defined within a function or block are said to be local to those functions, anything between block, local variable do not exist outside the block in which they are declared.
+
+```
+#include <iostream>
+
+using namespace std;
+
+void age()
+{
+    int age = 18;
+    cout << age << "\n";
+}
+
+int main() 
+{
+    cout << "Age is: ";
+    age();
+    return 0;
+}
+
+//-> Age is: 18
+```
