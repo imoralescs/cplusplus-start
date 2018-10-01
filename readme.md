@@ -139,7 +139,7 @@ int main()
 //-> 10
 ```
 
-
+```
 /*#include <iostream>
 
 using namespace std;
@@ -264,4 +264,46 @@ int main()
 }
 */
 //-> Character data type: Z
+
+```
+
+#### Constant
+
+* Literal
+
+Can be many type.
+
+```
+#include <iostream>
+
+using namespace std;
+
+int main() 
+{
+    cout << "Hello World!\n" << endl;
+    
+    return 0;
+}
+```
+
+* Declaring variable as constant using `const`
+
+```
+#include <iostream>
+
+using namespace std;
+
+int main() 
+{
+    const double pi = 22.0 / 7;
+
+    cout << "The value of constant pi is: " << pi << "\n" << endl;
+    
+    return 0;
+}
+
+//-> The value of constant pi is: 3.14286
+```
+
+### Operation
 
