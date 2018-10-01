@@ -410,3 +410,108 @@ int main()
 }
 */
 ```
+
+### Conditional
+
+```
+/*
+#include <iostream>
+
+using namespace std;
+
+int main() 
+{
+    int data_01 = (true) ? 5 : 2;
+
+    cout << data_01 << "\n" << endl;
+    //-> 5
+
+    int data_02 = (false) ? 5 : 2;
+
+    cout << data_02 << "\n" << endl;
+    //-> 2
+
+    int age_01 = 11;
+    bool result_01 = (age_01 > 8) ? true : false;
+
+    cout << result_01 << "\n" << endl;
+    //-> 1
+
+    return 0;
+}
+*/
+
+/*
+#include <iostream>
+
+using namespace std;
+
+int main() 
+{
+    int year = 2010;
+
+    if(year != 2011) {
+        cout << "year is 2011...\n" << endl;
+    }
+
+    return 0;
+}
+//-> year is 2011...
+*/
+
+/*
+#include <iostream>
+
+using namespace std;
+
+int main() 
+{
+    int data = 6;
+
+    if(data < 5) {
+        cout << "Block code 1\n" << endl;
+    }
+    else {
+        cout << "Block code 2\n" << endl;
+    }
+
+    return 0;
+}
+//-> Block code 2
+*/
+
+/*
+#include <iostream>
+
+using namespace std;
+
+int main() 
+{
+    string login = "Jack";
+
+    if(login == "John") {
+        cout << "Hello " << login << endl;
+    }
+    else if(login == "Jack") {
+        cout << "Hello " << login << endl;
+    }
+    else if(login == "") {
+        cout << "Please type login!\n" << endl;
+    }
+    else {
+        cout << "Hmmm!\n" << endl;
+    }
+
+    return 0;
+}
+*/
+
+// Switch
+/*
+The reason why has to do with the type system. C/C++ doesn't really support strings as a type. It does support the idea of a constant char array but it doesn't really fully understand the notion of a string.
+
+In order to generate the code for a switch statement the compiler must understand what it means for two values to be equal. For items like ints and enums, this is a trivial bit comparison. But how should the compiler compare 2 string values? Case sensitive, insensitive, culture aware, etc ... Without a full awareness of a string this cannot be accurately answered.
+
+Additionally, C/C++ switch statements are typically generated as branch tables. It's not nearly as easy to generate a branch table for a string style switch.
+*/
+```
