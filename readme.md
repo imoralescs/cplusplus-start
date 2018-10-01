@@ -307,3 +307,106 @@ int main()
 
 ### Operation
 
+```
+/*
+#include <iostream>
+
+using namespace std;
+
+int main() 
+{
+    int x = 10;
+
+    int y = 20;
+
+    cout << "X equal to: " << x << "\n" << endl;
+
+    cout << "Y equal to: " << y << "\n" << endl;
+    
+    return 0;
+}
+//-> X equal to: 10
+//-> Y equal to: 20
+*/
+
+/*
+#include <iostream>
+
+using namespace std;
+
+int main() 
+{
+    int x = 7;
+
+    int result = x * 2;
+
+    cout << "Result: " << result << "\n" << endl;
+    
+    return 0;
+}
+//-> Result: 14
+*/
+
+/*
+#include <iostream>
+
+using namespace std;
+
+int main() 
+{
+    int x = 1;
+
+    cout << "Result: " << ++x << "\n" << endl;
+    
+    return 0;
+}
+// Result: 2
+*/
+
+/*
+#include <iostream>
+
+using namespace std;
+
+int main() 
+{
+    int x = 1;
+
+    int y = ++x;
+
+    cout << "Result: " << x << "\n" << endl;
+
+    cout << "Result: " << y << "\n" << endl;
+    
+    return 0;
+}
+//-> Result: 2
+*/
+
+/*
+#include <iostream>
+
+using namespace std;
+
+int main() 
+{
+    int x = 1;
+
+    int y = ++x;
+
+    cout << "Result: " << x << "\n" << endl;
+
+    cout << "Result: " << y << "\n" << endl;
+    
+    int z = y++ + x;
+
+    cout << "Result: " << x << "\n" << endl;
+
+    cout << "Result: " << y << "\n" << endl;
+
+    cout << "Result: " << z << "\n" << endl;
+    
+    return 0;
+}
+*/
+```
