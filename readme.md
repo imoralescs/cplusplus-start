@@ -138,3 +138,130 @@ int main()
 //-> 5
 //-> 10
 ```
+
+
+/*#include <iostream>
+
+using namespace std;
+
+int main() 
+{
+    short num;
+
+    num = 113;
+
+    cout << "Short data type: " << num << "\n";
+    
+    return 0;
+}
+*/
+//-> Short data type: 113
+
+/*
+#include <iostream>
+
+using namespace std;
+
+int main() 
+{
+    int num;
+
+    num = 1024;
+
+    cout << "Integer data type: " << num << "\n";
+    
+    return 0;
+}
+*/
+//-> Integer data type: 1024
+
+/*
+#include <iostream>
+
+using namespace std;
+
+int main() 
+{
+    long num;
+
+    num = -12332252626L;
+
+    cout << "Long data type: " << num << "\n";
+    
+    return 0;
+}
+*/
+//-> Long data type: -12332252626
+
+/*
+#include <iostream>
+
+using namespace std;
+
+int main() 
+{
+    double num;
+
+    num = -42937737;
+
+    cout << "Double data type: " << num << "\n";
+    
+    return 0;
+}
+*/
+//-> Double data type: -4.29377e+07
+
+/*
+#include <iostream>
+
+using namespace std;
+
+int main() 
+{
+    float num;
+
+    num = 19.98f;
+
+    cout << "Float data type: " << num << "\n";
+    
+    return 0;
+}
+*/
+//-> Float data type: 19.98
+
+/*
+#include <iostream>
+
+using namespace std;
+
+int main() 
+{
+    bool a, b;
+
+    a = false;
+
+    b = true;
+
+    cout << "Boolean data type: " << a << " and " << b << "\n";
+    
+    return 0;
+}
+*/
+//-> Boolean data type: 0 and 1
+
+/*
+#include <iostream>
+
+using namespace std;
+
+int main() 
+{
+    char ch = 'Z';
+
+    cout << "Character data type: " << ch << "\n";
+    
+    return 0;
+}
+*/
+//-> Character data type: Z
+
